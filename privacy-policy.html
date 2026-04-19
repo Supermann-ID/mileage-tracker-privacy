@@ -1,38 +1,182 @@
-Mileage Matters — Privacy Policy
-Last updated: April 19, 2026
-Overview
-Mileage Matters is a personal mileage logging app designed to help you track business, medical, and charitable trips for IRS tax deduction purposes. Your privacy is important to us.
-Data We Collect
-Location Data: With your permission, Mileage Matters accesses your device's GPS location to automatically track trips and calculate mileage. Location data is stored only on your device.
-Trip Information: Trip dates, mileage, categories, notes, and vehicle information are stored locally on your device using Apple's Core Data framework.
-Motion & Fitness Data: With your permission, the app uses motion activity to detect when you are driving, enabling automatic trip detection.
-Bluetooth Identifiers: With your permission, Mileage Matters scans for nearby Bluetooth devices to detect connection to your vehicle or OBD-II adapter. Bluetooth peripheral identifiers are stored only on your device and are used solely to recognize a vehicle you have configured in the app.
-Use of Apple System Services
-To display nearby addresses and point-of-interest names for your trips, Mileage Matters uses Apple's built-in MapKit and Geocoding services. Trip coordinates may be sent to these services to resolve an address or business name. These requests are handled by iOS and are governed by Apple's Privacy Policy.
-Data We Do NOT Collect
-	•	We do not collect any personal identification information
-	•	We do not transmit your trip data to any of our own servers
-	•	We do not use analytics or tracking services
-	•	We do not share any data with third parties for advertising
-	•	We do not use advertising
-Data Storage
-All trip, vehicle, and receipt data is stored locally on your device. If you enable iCloud on your device, Apple may sync your data across your devices through your personal iCloud account, subject to Apple's Privacy Policy.
-Data Retention & Deletion
-Because all data is stored locally on your device, uninstalling Mileage Matters removes all of your trip data. You can also delete individual trips, vehicles, or receipts from within the app at any time.
-Permissions
-	•	Location (Always): Required for automatic trip detection and mileage calculation. You can disable this in iOS Settings at any time.
-	•	Motion & Fitness: Used to detect driving activity for automatic trip start. Optional.
-	•	Bluetooth: Used to detect connection to vehicle Bluetooth or an OBD-II adapter for automatic trip start and odometer capture. Optional.
-	•	Notifications: Used to alert you when a trip is complete and for smart route suggestions. Optional.
-	•	Camera & Photo Library: Used for attaching receipt photos to trips. Optional.
-Children's Privacy
-Mileage Matters is not directed at children under 13 and does not knowingly collect information from children.
-Changes to This Policy
-We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date.
-LEGAL DISCLAIMER
-Mileage Matters is a mileage logging tool provided for informational and record-keeping purposes only. It does not constitute tax, legal, or accounting advice.
-You are solely responsible for the accuracy, completeness, and proper categorization of all trip records entered into this app. The developer of Mileage Matters makes no representations or warranties regarding the fitness of this app for any particular tax purpose and is not liable for any tax obligations, penalties, interest, or outcomes resulting from an IRS audit or any tax authority review.
-Always consult a qualified tax professional or accountant regarding your specific tax situation and mileage deduction eligibility before filing your tax return.
-Contact
-If you have questions about this privacy policy, please contact us at: ridgelinedigitalllc@gmail.com
-© 2026 Ridgeline Digital LLC. Mileage Matters is a product of Ridgeline Digital LLC.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mileage Matters — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #0A1833;
+    --surface: #122449;
+    --text: #E8EEF7;
+    --text-secondary: #A9B4CC;
+    --accent: #3BC9B0;
+    --accent-light: #5CE6CE;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: linear-gradient(135deg, var(--bg) 0%, #0D2040 100%);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+
+  header {
+    margin-bottom: 40px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  h1 {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    letter-spacing: -0.5px;
+    background: linear-gradient(90deg, var(--accent-light), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .subtitle {
+    color: var(--text-secondary);
+    font-size: 15px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 36px 0 12px;
+    color: var(--accent-light);
+  }
+
+  p {
+    margin: 0 0 14px;
+    color: var(--text);
+  }
+
+  strong { color: var(--accent-light); font-weight: 600; }
+
+  ul {
+    padding-left: 22px;
+    margin: 0 0 14px;
+  }
+
+  li { margin-bottom: 8px; }
+
+  a {
+    color: var(--accent-light);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(92, 230, 206, 0.3);
+  }
+  a:hover { border-bottom-color: var(--accent-light); }
+
+  .disclaimer {
+    margin-top: 36px;
+    padding: 20px 24px;
+    background: rgba(255, 255, 255, 0.04);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+  }
+
+  .disclaimer h2 {
+    margin-top: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  .disclaimer p {
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--text-secondary);
+    font-size: 14px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Mileage Matters — Privacy Policy</h1>
+    <p class="subtitle">Last updated: April 19, 2026</p>
+  </header>
+
+  <h2>Overview</h2>
+  <p>Mileage Matters is a personal mileage logging app designed to help you track business, medical, and charitable trips for IRS tax deduction purposes. Your privacy is important to us.</p>
+
+  <h2>Data We Collect</h2>
+  <p><strong>Location Data:</strong> With your permission, Mileage Matters accesses your device's GPS location to automatically track trips and calculate mileage. Location data is stored only on your device.</p>
+  <p><strong>Trip Information:</strong> Trip dates, mileage, categories, notes, and vehicle information are stored locally on your device using Apple's Core Data framework.</p>
+  <p><strong>Motion &amp; Fitness Data:</strong> With your permission, the app uses motion activity to detect when you are driving, enabling automatic trip detection.</p>
+  <p><strong>Bluetooth Identifiers:</strong> With your permission, Mileage Matters scans for nearby Bluetooth devices to detect connection to your vehicle or OBD-II adapter. Bluetooth peripheral identifiers are stored only on your device and are used solely to recognize a vehicle you have configured in the app.</p>
+
+  <h2>Use of Apple System Services</h2>
+  <p>To display nearby addresses and point-of-interest names for your trips, Mileage Matters uses Apple's built-in MapKit and Geocoding services. Trip coordinates may be sent to these services to resolve an address or business name. These requests are handled by iOS and are governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+
+  <h2>Data We Do NOT Collect</h2>
+  <ul>
+    <li>We do not collect any personal identification information</li>
+    <li>We do not transmit your trip data to any of our own servers</li>
+    <li>We do not use analytics or tracking services</li>
+    <li>We do not share any data with third parties for advertising</li>
+    <li>We do not use advertising</li>
+  </ul>
+
+  <h2>Data Storage</h2>
+  <p>All trip, vehicle, and receipt data is stored locally on your device. If you enable iCloud on your device, Apple may sync your data across your devices through your personal iCloud account, subject to Apple's Privacy Policy.</p>
+
+  <h2>Data Retention &amp; Deletion</h2>
+  <p>Because all data is stored locally on your device, uninstalling Mileage Matters removes all of your trip data. You can also delete individual trips, vehicles, or receipts from within the app at any time.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Location (Always):</strong> Required for automatic trip detection and mileage calculation. You can disable this in iOS Settings at any time.</li>
+    <li><strong>Motion &amp; Fitness:</strong> Used to detect driving activity for automatic trip start. Optional.</li>
+    <li><strong>Bluetooth:</strong> Used to detect connection to vehicle Bluetooth or an OBD-II adapter for automatic trip start and odometer capture. Optional.</li>
+    <li><strong>Notifications:</strong> Used to alert you when a trip is complete and for smart route suggestions. Optional.</li>
+    <li><strong>Camera &amp; Photo Library:</strong> Used for attaching receipt photos to trips. Optional.</li>
+  </ul>
+
+  <h2>Children's Privacy</h2>
+  <p>Mileage Matters is not directed at children under 13 and does not knowingly collect information from children.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date.</p>
+
+  <div class="disclaimer">
+    <h2>Legal Disclaimer</h2>
+    <p>Mileage Matters is a mileage logging tool provided for informational and record-keeping purposes only. It does not constitute tax, legal, or accounting advice.</p>
+    <p>You are solely responsible for the accuracy, completeness, and proper categorization of all trip records entered into this app. The developer of Mileage Matters makes no representations or warranties regarding the fitness of this app for any particular tax purpose and is not liable for any tax obligations, penalties, interest, or outcomes resulting from an IRS audit or any tax authority review.</p>
+    <p>Always consult a qualified tax professional or accountant regarding your specific tax situation and mileage deduction eligibility before filing your tax return.</p>
+  </div>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this privacy policy, please contact us at: <a href="mailto:ridgelinedigitalllc@gmail.com">ridgelinedigitalllc@gmail.com</a></p>
+
+  <footer>
+    © 2026 Ridgeline Digital LLC. Mileage Matters is a product of Ridgeline Digital LLC.
+  </footer>
+
+</div>
+</body>
+</html>
